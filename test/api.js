@@ -20,7 +20,7 @@ cvr.readFile(testPng)
    		//var origianlRatio= originalDimensions.height/originalDimensions.width;
    		//var ratio= dimensions.height/dimensions.width;
    		//origianlRatio.should.be.equal(ratio);
-   		console.log('ok')
+   		console.log(fs.statSync(__dirname+'/himym-200.png'))
    }, function (err) {
    		throw err;
    })
@@ -29,8 +29,8 @@ cvr.readFile(testPng)
 var cvr= new Canvasr();
 cvr.readFile(testPng)
    .crop({
-   		x: 0,
-   		y: 0,
+   		x: 100,
+   		y: 100,
    		width: 200,
    		height: 200
    })
@@ -41,7 +41,7 @@ cvr.readFile(testPng)
    		//var dimensions = sizeOf(__dirname+'/himym-cropped.png');
    		//dimensions.width.should.be.equal(200);
    		//dimensions.height.should.be.equal(200);
-   		console.log('ok')
+   		console.log(fs.statSync(__dirname+'/himym-cropped.png'))
    }, function (err) {
    		throw err;
    })
