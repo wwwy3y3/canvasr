@@ -1,6 +1,6 @@
 {
   "name": "canvasr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "nodejs canvas api helpers",
   "main": "index.js",
   "scripts": {
