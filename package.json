@@ -1,0 +1,27 @@
+{
+  "name": "canvasr",
+  "version": "0.0.0",
+  "description": "nodejs canvas api helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wwwy3y3/canvasr.git"
+  },
+  "keywords": [
+    "canvas",
+    "graphic",
+    "graphics",
+    "cairo",
+    "image",
+    "images"
+  ],
+  "author": "wwwy3y3",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/wwwy3y3/canvasr/issues"
+  },
+  "homepage": "https://github.com/wwwy3y3/canvasr"
+}
