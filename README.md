@@ -38,3 +38,6 @@ cvr.readFile(testPng)
    		throw err;
    })
 ```
+
+# todo
+- [ ] change to chaning methods
