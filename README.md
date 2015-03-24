@@ -1,5 +1,5 @@
 # canvasr
-node-canvas api 
+node-canvas api, denpends on [`node-canvas`](https://github.com/Automattic/node-canvas), which required install [cairo](http://cairographics.org/) 
 
 # api
 ## resize({ width: width, height: height })
